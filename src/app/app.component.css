@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+.magic-bg {
+    background: url('../assets/imgs/galerajpg.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
