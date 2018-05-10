@@ -1,0 +1,20 @@
+.logo-central-svg {
+    height: 200px !important;
+    width: auto !important;
+    margin-left: 23vw;
+    margin-top: 35vh;
+    -webkit-filter: drop-shadow(12px 12px 20px rgba(255, 255, 255, 0.2));
+    filter: drop-shadow(12px 12px 20px rgba(255, 255, 255, 0.2));
+    transition: all .5s linear;
+}
+
+svg:hover {
+    -webkit-filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, .8));
+    filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, .8));
+    transition: all .5s linear;
+}
+
+svg:hover .letter {
+    fill: #7b3a9e !important;
+    transition: all .5s linear;
+}

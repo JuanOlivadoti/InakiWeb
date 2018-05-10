@@ -7,13 +7,15 @@ import { AppBootstrapModule } from './app-bootstrap/app-bootstrap.module';
 import { AppComponent } from './app.component';
 import { InakiNavbarComponent } from './inaki-navbar/inaki-navbar.component';
 import { InakiLogoComponent } from './inaki-logo/inaki-logo.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     InakiNavbarComponent,
-    InakiLogoComponent
+    InakiLogoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
